@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Book</title>
+    <style>
+        body {
+            width: 100%;
+            font-family:monospace;font-size: 15px;background-image: url(""); font-weight:50px;
+        }
+        .main {
+            width: 50%; height: auto; margin: auto; text-align: center;
+            color:whitesmoke; display: flex; flex-direction: column;
+        }
+        #TitleName {
+            text-decoration: underline; text-transform: uppercase;
+        }
+        div{padding: 1%;}
+        #textBox {
+            height: 3vh;border-radius: 20px; border-color:black;
+        }
+        #textBox1 {
+            width:20%; height:5vh; border-radius: 20px; border-color:black;
+        }
+        #textBox2 {
+            width:20%; height:5vh; border-radius: 20px; border-color:black; 
+        }
+        
+        #backgroundImage {
+            width: 100%; height: 120vh; position: absolute; z-index: -1;
+        }
+        
+        .sub{background-color:black; width: 30%; margin: auto; border-radius: 20px;}
+    </style>
+</head>
+
+<body>
+    <img src="https://cdn.pixabay.com/photo/2014/03/14/15/08/pink-cloud-287181_960_720.jpg" 
+    alt="background image" id="backgroundImage">
+    <div class="main">
+        <div>
+            <h1 id="TitleName">Friends Book</h1>
+        </div>
+        <form aria-required="true">
+            <div id="yourName">
+                <label>Your Name: </label>
+                <input type="text" id="textBox" placeholder="Your name please">
+                <br><br>
+                <label>Age:</label>
+                <input type="text" style="border-radius:30px;" placeholder="Just a number.."></input>
+                <label>Date of Birth:</label>
+                <input type="date"></input>
+            </div>
+            <div><label id="field1">1. A message for me!</label></div>
+            <div><input type="text" id="textBox1" placeholder="Just say I'm handsome!"></div>
+            <div><label id="field2"><b>2. A nick name for me?</b></label></div>
+            <div><input type="text" id="textBox2" placeholder="Nil"></div>
+            <div><label>3. Have you ever <b>lied</b> to me?</label></div>
+            <div>
+                <input type="radio">
+                <label id="yesMayBe"> Yes, everytime! </label>
+                <input type="radio">
+                <label id="yesMayBe"> Maybe, sometimes </label>
+            </div>
+            <div><label>4. How do you feel when you talk to me?</label></div>
+            <div>
+                <input type="radio">
+                <label id="yesMayBe"> Happy as I always say! </label>
+                <input type="radio">
+                <label id="yesMayBe"> Irritated! </label>
+            </div>
+            <div><label>5. Would you like to Go on a roadtrip with me ?</label></div>
+            <div>
+                <input type="radio">
+                <label id="yesMayBe"> Yes </label>
+                <input type="radio">
+                <label id="yesMayBe"> Maybe Later </label>
+            </div>
+            <div><label id="bestColour">6. Best color that suits me ?</label></div>
+            <div class="sub">
+                <input type="checkbox">
+                <label id="yesMayBe"> White </label>
+                <input type="checkbox">
+                <label id="yesMayBe"> Black</label>
+                <input type="checkbox">
+                <label id="yesMayBe">Orange</label>
+                <input type="checkbox">
+                <label id="yesMayBe"> Gray</label>
+                <input type="checkbox">
+                <label id="yesMayBe">Blue</label>
+            </div>
+            <div><label id="field1" >7. The Best Moment with me ?</label></div>
+            <div><input type="text" id="textBox1" placeholder="Let's create some!"></div>
+        </form>
+    </div>
+</body>
+</html>
