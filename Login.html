@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+<style>
+      body{text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+</style>
+</head>
+<body> 
+<div style="background-color:lightblue;">
+<h1 id="login"><u>LOGIN</u></h1>
+<form id="login-form">
+<fieldset>
+<br>
+<label>Name:</label><input id="fname" placeholder="Name"></input><br>
+<br><label>Password:</label><input type="password" placeholder="Password"></input><br>
+<br><label>Email:</label><input placeholder="e-mail"></input><br>	
+<br><label>Courses:<label>
+<select id="course">
+<option>Computer Science</option>
+<option>Information Technology</option>
+<option>Electronics</option>
+<option>Mechanical</option>
+<option>Artificial Intelligence</option>
+<option>Civil</option>
+</select><br>
+<br><label>Address: </label><textarea id="address"></textarea><br>
+<br><label>Country:</label>
+
+<label for="country"></label>
+<input list="countries" id="country" name="country" />	
+<datalist id="countries">	
+<option></option>
+<option>Afghanistan</option>
+<option>Brazil</option>
+<option>Cambodia</option>
+<option>Comoros</option>
+<option>Dominica</option>
+<option>Egypt</option>
+<option>Finland</option>
+<option>Germany</option>
+<option>Haiti</option>
+<option>Iran</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iran</option>
+<option>Japan</option>
+<option>Kuwait</option>
+<option>Maldives</option>
+<option>Oman</option>
+<option>Saudi Arabia</option>
+<option>Thailand</option>
+<option>United States of America</option>
+<option>Zimbabwe</option>
+</datalist>
+<br><br><button id="submit_btn" >SUBMIT</button>
+<br><br>
+</fieldset>
+</form><br>
+</div>
+</body>
